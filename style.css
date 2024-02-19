@@ -1,0 +1,196 @@
+
+
+
+#topbar {
+  position: fixed;
+  top: 0;
+  border-radius: 0 40px 40px 40px;
+}
+
+#bottombar {
+  bottom: 0;
+  width: 100%;
+
+}
+
+#bottombar .navbar-nav {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bottombar .nav-link img {
+  height: 30px;
+  width: 30px;
+  color: white;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.row .col-8 {
+  background-color: lightgrey;
+  border-radius: 40px;
+  height: 750px;
+  width: 60%;
+}
+
+.row .col-4 {
+  background-color: lightgray;
+  border-radius: 40px;
+  height: 800px;
+  width: 30%;
+  
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.col-8 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.col-8:hover {
+  transform: scale(1.1);
+}
+
+.col-8 p {
+  margin: 40px;
+}
+
+.col-8 h2 {
+  margin: 10px;
+}
+
+.col-8 img {
+  border-radius: 40px;
+
+}
+
+.carousel-inner {
+  box-shadow: 0 12px 24px 0 rgb(0, 0, 0), 0 20px 60px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 40px;
+  background-color: rgb(8, 7, 7);
+
+  
+}
+
+.carousel-item {
+  border-radius: 40px;
+  background-color: rgb(3, 2, 2);
+
+}
+
+
+
+
+.col-4 {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  justify-content: right;
+  transition: transform 0.3s ease;
+}
+
+.col-4:hover {
+  transform: scale(1.1);
+}
+
+.main {
+  margin: 0px 80px 0px 80px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .row .col-8 {
+    width: 60%;
+    margin-right: 20px;
+  }
+
+  .row .col-4 {
+    width: 30%;
+    margin-left: 20px;
+  }
+
+
+  .row .col-8 p {
+    font-size: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .row .col-8 {
+    width: 50%;
+    margin-right: 40px;
+  }
+
+  .row .col-4 {
+    width: 30%;
+    margin-left: 40px;
+  }
+
+
+  .row .col-8 p {
+    font-size: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .row .col-8 {
+    width: 60%;
+    margin-right: 40px;
+  }
+
+  .row .col-4 {
+    width: 30%;
+    margin-left: 40px;
+    top: 0%;
+  }
+  .row .col-8 p {
+    font-size: 100%;
+  }
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .row .col-8 {
+    width: 60%;
+    margin-right: 80px;
+  }
+
+  .row .col-4 {
+    width: 30%;
+    margin-left: 80px;
+  }
+
+  .row .col-8 p {
+    font-size: 100%;
+  }
+
+  .main {
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
