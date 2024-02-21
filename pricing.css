@@ -3,3 +3,13 @@
     align-items: center;
     justify-content: center;
 }
+
+.col .card {
+    width: 30rem;
+    border-radius: 40px;
+    margin-top: 120px;
+}
+
+.col .card img {
+    border-radius: 40px;
+}
